@@ -12,17 +12,17 @@
 
 #### 3.  Existe una clase abstracta llamada `Cuenta` de la cual se deben heredar dos clases `CuentaDebito` y `CuentaCredito`.
 
- ![Cuenta](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/Cuenta.jpg)
+ ![Cuenta](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/img/Cuenta.png)
 
 
 
-![Diagrama Clases](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/DiagramaClasesPaquete.png)
+![Diagrama Clases](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/img/DiagramaClasesPaquete.png)
 
 
 
 
 
-#### 4. `CuentaDebito` debe implementar la siguiente propiedad y métodos:
+#### 4. `CuentaDebito` debe implementar el constructor, la siguiente propiedad y métodos:
 
 a) Propiedad `montoMinimo` que debe ser el monto mínimo en promedio que debe tener la cuenta para no cobrar por el manejo de cuenta.
 
@@ -43,7 +43,7 @@ public String toString() {
 	}//toString
 ```
 
-#### 5. `CuentaCredito` debe implementar las siguientes propiedades y métodos:
+#### 5. `CuentaCredito` debe implementar el constructor, las siguientes propiedades y métodos:
 
 a) `limite` que es el límite de crédito con el que se cuenta.
 
@@ -94,7 +94,7 @@ i) Método toString que llame al método de la clase `Cuenta` de la siguiente ma
 
 #### 3. Implementa la interfaz `Imprimible` en `CuentaDebito`, `CuentaCredito` y `TarjetaRegalo`.
 
-#### 4. Dentro de la clase `ReciboSaldo` cambia el tipo de dato del método `Imprimir` por `Imprimible`.
+#### 4. Dentro de la clase `ReciboSaldo` cambia el tipo de dato del método `Imprimir` de `Cuenta` por `Imprimible`.
 
 #### 5. Crea un objeto del tipo `TarjetaRegalo` en el `main` de la clase `SimulaBanco` e imprime el saldo mediante la clase `ReciboSaldo`.
 
