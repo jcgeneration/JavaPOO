@@ -55,9 +55,9 @@ d) `fechaLimitePago` que es la fecha que se tiene para pagar antes de cobrar int
 
 e) Getters y Setters de las propiedades `tasa`, `limite`, `fechaCorte`.
 
-f) Método `getSaldo` que regresa el saldo de la cuenta y cobra una comisión de $$ 3 pesos por cada solicitud de saldo (esta comisión se ve reflejada en el saldo actual).
+f) Método `getSaldo` que regresa el saldo de la cuenta y cobra una comisión de $3 pesos por cada solicitud de saldo (esta comisión se ve reflejada en el saldo actual).
 
-g) Método `retiro` donde se evalúe si el límite menos el saldo actual es suficiente para poder realizar el retiro, de no ser así debe cobrarse una comisión de $$5, si se puede realizar el retiro se aumenta al saldo y se cobra una comisión del 5 % (del total del retiro)  y en los dos casos actualiza el saldo, finalmente debe regresar el saldo de la cuenta.
+g) Método `retiro` donde se evalúe si el límite menos el saldo actual es suficiente para poder realizar el retiro, de no ser así debe cobrarse una comisión de $5, si se puede realizar el retiro se aumenta al saldo y se cobra una comisión del 5 % (del total del retiro)  y en los dos casos actualiza el saldo, finalmente debe regresar el saldo de la cuenta.
 
 h) Método `deposito` donde se actualiza el saldo de la cuenta y finalmente debe regresar el saldo de la cuenta.
 
@@ -86,7 +86,7 @@ i) Método toString que llame al método de la clase `Cuenta` de la siguiente ma
 
 
 
-![Tarjeta Regalo](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/TarjetaRegalo.png)
+![Tarjeta Regalo](https://raw.githubusercontent.com/jcgeneration/CH25_JavaPOO/main/img/TarjetaRegalo.png)
 
 
 
